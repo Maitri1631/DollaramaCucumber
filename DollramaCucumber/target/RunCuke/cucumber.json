@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8599638000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should add to cart product successfully",
+        "description": "",
+        "id": "add-to-cart-product;user-should-add-to-cart-product-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 698044500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88586600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on home page",
+            "match": {
+              "location": "Addtocartstep.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3819242300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Food section",
+            "match": {
+              "location": "Addtocartstep.iClickOnFoodSection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 451322300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Chocolate categories",
+            "match": {
+              "location": "Addtocartstep.iClickOnChocolateCategories()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452741200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click on Product",
+            "match": {
+              "location": "Addtocartstep.iClickOnProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125567500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Add to cart button",
+            "match": {
+              "location": "Addtocartstep.iClickOnAddToCartButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add to cart Product",
+    "description": "",
+    "id": "add-to-cart-product",
+    "keyword": "Feature",
+    "uri": "AddtoCart.feature"
+  }
+]
